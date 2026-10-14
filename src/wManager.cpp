@@ -204,7 +204,7 @@ void init_WifiManager()
     // Custom elements
 
     // Text box (String) - 80 characters maximum
-    WiFiManagerParameter pool_text_box("Poolurl", "Pool url", Settings.PoolAddress.c_str(), 80);
+    WiFiManagerParameter pool_text_box("Poolurl", "Mine Digibyte SHA256 pool", Settings.PoolAddress.c_str(), 80);
 
     // Need to convert numerical input to string to display the default value.
     char convertedValue[6];
@@ -217,7 +217,7 @@ void init_WifiManager()
     //WiFiManagerParameter password_text_box("Poolpassword", "Pool password (Optional)", Settings.PoolPassword, 80);
 
     // Text box (String) - 80 characters maximum
-    WiFiManagerParameter addr_text_box("btcAddress", "Your BTC address", Settings.BtcWallet, 80);
+    WiFiManagerParameter addr_text_box("btcAddress", "Digibyte wallet (default supports Mine Digibyte; replace with your own address)", Settings.BtcWallet, 80);
 
   // Text box (Number) - 2 characters maximum
   char charZone[6];
