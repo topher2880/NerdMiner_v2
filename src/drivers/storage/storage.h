@@ -12,10 +12,10 @@
 #define DEFAULT_SSID		"HanSoloAP"
 #endif
 #define DEFAULT_WIFIPW		"MineYourCoins"
-#define DEFAULT_POOLURL		"public-pool.io"
-#define DEFAULT_POOLPASS	"x"
-#define DEFAULT_WALLETID	"yourBtcAddress"
-#define DEFAULT_POOLPORT	3333
+#define DEFAULT_POOLURL		"sha.minedigibyte.com"
+#define DEFAULT_POOLPASS	"c=DGB,mc=DGB,d=0.002,m=solo"
+#define DEFAULT_WALLETID	"dgb1q8s2zne6qyc5t6ay6qel9wfwxph7xcka0cny8ru"
+#define DEFAULT_POOLPORT	3334
 #define DEFAULT_TIMEZONE	2
 #define DEFAULT_SAVESTATS	false
 #define DEFAULT_INVERTCOLORS	false
